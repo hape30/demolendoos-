@@ -227,7 +227,7 @@ img {max-width: 100%;}
 .banner-part .banner-content{position: relative;padding-top: 130px;}
 .banner-part .banner-image{padding-top: 80px;}
 .banner-part .banner-content .banner-heading{font-size: 46px;color:#121619;font-style: italic;font-weight:lighter;}	
-.banner-part .banner-content .banner-heading span{color: #000;}
+.banner-part .banner-content .banner-heading span{color: #;}
 .banner-part .banner-content .head-one{font-size: 54px;font-weight: 700;color:#121619;letter-spacing: -3px;}
 .banner-part .banner-content .banner-p{color: #121619;margin-bottom: 30px;}
 .banner-part .banner-content .started-btn{
@@ -287,19 +287,7 @@ img {max-width: 100%;}
 .section-title .section-span{font-size: 15px;color:#fb4567;}
 .section-title .head-two{font-size: 35px;font-weight: 600;color: #121619;margin-top: 5px;}
 .our-services-part .service-detail-grp{margin: 0 auto; max-width: 955px;}
-.our-services-part .services{
-	text-align: center;
-	background-color: #fff;
-	padding: 23px 20px;
-	box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.15);
-	z-index: 99;/* width: 210px; */
-	transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-webkit-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-}
-our-services-part .service-detail-grp{margin: 0 auto; max-width: 955px;}
-.our-services-part .services{
+.our-services-part .services-detail{
 	text-align: center;
 	background-color: #fff;
 	padding: 23px 20px;
@@ -313,6 +301,8 @@ our-services-part .service-detail-grp{margin: 0 auto; max-width: 955px;}
 .our-services-part .services-detail .head-three{color: #121619;font-size: 16px;font-weight: 600;margin: 18px 0 15px;}
 .our-services-part .services-detail p{color:#999999;margin-bottom: 0;}
 .service-detail-grp .services-detail:hover{transform: translateY(-20px);}
+/*End Services Part*/
+
 /*About-us Part*/
 .pt-100{padding-top: 100px;}
 .pt-85{padding-top: 85px;}
@@ -346,7 +336,6 @@ our-services-part .service-detail-grp{margin: 0 auto; max-width: 955px;}
     top: 4px;
 }
 .our-services-part .aboutus-detail ul li{color: #121619;/* font-size: 18px; */margin-bottom: 5px;position: relative;padding-left: 20px;}
-
 /*End About-us Part*/
 
 /*Testimonial Part*/
@@ -1119,6 +1108,26 @@ svg.radial-progress{max-width: 86px;}
 .blog-detail-part .detail-title p.w-80{width: 100%!important;margin-bottom: 10px;}
 .blog-detail-part .comment-part .commenter .comment-msg .reply-btn{position: initial;}
 }
+.rectangle{
+
+width: 70%;
+
+height: 50px;
+
+border:1px solid;
+
+margin:auto;
+
+background: #25537b;}
+
+.text_center{
+
+color: #ffffff;
+
+text-align: center;
+
+}
+
 
 
 /*====== End Responsive Part ======*/
